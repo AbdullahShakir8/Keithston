@@ -1,0 +1,223 @@
+
+:root{
+    --bs-SubheadingColor: #E9BD8C;
+    --bs-buttonColor: #933C24;
+    --bs-hover-buttonColor: #87331c;
+    --bs-active-buttonColor: #5a1e0e;
+    --bs-exploreMoreNavColor: #5D5D5D;
+    --bs-aboutUs-paragraph-color: #B9B9B9;
+    --bs-aboutUs-Heading-color: #F5F5F5;
+    --bs-copyWrite-color:#737373;
+}
+
+body{
+    font-family: "Inter";
+}
+.h-heading{
+    font-family: "Sansita Swashed";
+}
+
+.header-section{
+    background-image: url("../images/header.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.sub-heading{
+    color: var(--bs-SubheadingColor);
+    font-family: "Inter";
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.btn-primary{
+    --bs-btn-bg: var(--bs-buttonColor);
+    --bs-btn-border-color: var(--bs-buttonColor);
+
+    --bs-btn-hover-bg: var(--bs-hover-buttonColor);
+    --bs-btn-hover-border-color: var(--bs-hover-buttonColor);
+
+    --bs-btn-active-bg: var(--bs-active-buttonColor);
+    --bs-btn-active-border-color: var(--bs-active-buttonColor);
+}
+.link{
+    text-decoration: none;
+    color: var(--bs-SubheadingColor);
+}
+
+.topProducts{
+    font-family: "Sansita Swashed";
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.topProducts{
+    font-family: "Sansita Swashed";
+    font-size: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+@media(max-width: 786px){
+    .topProducts{
+        font-size: 2.4rem;
+    }
+}
+@media(max-width: 576px){
+    .topProducts{
+        font-size: 2rem;
+    }
+}
+
+.top-1{
+    background-image: url("../images/products/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1.5rem;
+    border-radius: 12px;
+}
+.top-1 img{
+    height: 200px;
+}
+
+
+.learn-more{
+    background-image: url("../images/LearnMore.png");
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin-top: 10rem;
+}
+.learn-more-heading{
+    font-family: "Sansita Swashed";
+    color: var(--bs-buttonColor);
+    font-size: 2.5rem;
+}
+.learn-more-paragraph{
+    color: var(--bs-exploreMoreNavColor);
+}
+
+.exploreMore{
+    font-family: "Sansita Swashed";
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.exploreMore{
+    font-family: "Sansita Swashed";
+    font-size: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+@media(max-width: 786px){
+    .exploreMore{
+        font-size: 2.4rem;
+    }
+}
+@media(max-width: 576px){
+    .exploreMore{
+        font-size: 2rem;
+    }
+}
+.exploreMoreNav{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+.exploreMoreNav .nav-link{
+    color: var(--bs-exploreMoreNavColor);
+    font-size: 1rem;
+    font-weight:bold;
+}
+.nav-underline .nav-link.active{
+    color: var(--bs-buttonColor);
+}
+.exploreMoreImg{
+    margin-top: 1.5rem;
+    border-radius: 12px;
+}
+
+.about-us{
+    background-image: url("../images/AboutUs.png");
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin-top: 10rem;
+}
+.about-us-heading{
+    font-family: "Sansita Swashed";
+    color: var(--bs-aboutUs-Heading-color);
+    font-size: 2.5rem;
+}
+.about-us-paragraph{
+    color: var(--bs-aboutUs-paragraph-color);
+}
+
+.featured{
+    font-family: "Sansita Swashed";
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.featured{
+    font-family: "Sansita Swashed";
+    font-size: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+@media(max-width: 786px){
+    .featured{
+        font-size: 2.4rem;
+    }
+}
+@media(max-width: 576px){
+    .featured{
+        font-size: 2rem;
+    }
+}
+.featuredImg{
+    margin-top: 1.5rem;
+    border-radius: 12px;
+}
+
+.footer-section{
+    background-image: url(../images/footer/bg.png);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    margin-top: 5rem;
+    padding: 3rem 0;
+}
+@media(max-width: 768px){
+    .footer-section{
+        padding: 2rem 0;
+        min-height: auto;
+    }
+}
+@media(max-width: 576px){
+    .footer-section{
+        padding: 1.5rem 0;
+        min-height: auto;
+    }
+}
+.follow{
+    color: var(--bs-SubheadingColor);
+}
+
+.copy-write{
+    color: var(--bs-copyWrite-color);
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+@media(max-width: 576px){
+    .copy-write{
+        margin-top: 1.5rem;
+        padding-top: 1.5rem;
+    }
+}
